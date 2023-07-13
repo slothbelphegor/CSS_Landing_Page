@@ -2,6 +2,7 @@ body {
     font-family: 'Roboto', "Times New Roman", Helvetica, sans-serif;
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 
 .header, .hero_section, .footer {
@@ -14,22 +15,39 @@ body {
 }
 
 .hero_main_text {
-    font: bolder 48px inherit;
+    font-size: 48px;
+    font-weight: bolder;
     color: #f9faf8;
 }
 
 .hero_sub_text, .link {
     font-size: 18px;
-    color: #e5e7eb;
+    color: #E5E7EB;
 
 }
 
 .btn, .ad_section {
     background-color: #3882f6;
+    color: #e5e7eb;
+}
+
+.btn {
+    font-weight: bold;
+    border-radius: 5px;
+    border-color: white;
+    padding: 5px;
+    width: 100px;
+    border-style: solid;
+}
+
+.ad_title {
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .info_title {
-    font: bolder 36px inherit;
+    font-size: 36px;
+    font-weight: bolder;
     color: #1f2937;
 }
 
@@ -37,8 +55,14 @@ body {
     background-color: #e5e7eb;
 }
 
-blockquote {
-    font: italic 36px #1f2937; 
+.quote_content {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937; 
+}
+
+.quote_author {
+    font-weight: bold;
 }
 
 
