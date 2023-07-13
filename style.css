@@ -1,0 +1,48 @@
+body {
+    font-family: 'Roboto', "Times New Roman", Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.header, .hero_section, .footer {
+    background-color: #1f2937;
+}
+
+.header_logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.hero_main_text {
+    font: bolder 48px inherit;
+    color: #f9faf8;
+}
+
+.hero_sub_text, .link {
+    font-size: 18px;
+    color: #e5e7eb;
+
+}
+
+.btn, .ad_section {
+    background-color: #3882f6;
+}
+
+.info_title {
+    font: bolder 36px inherit;
+    color: #1f2937;
+}
+
+.quote_section {
+    background-color: #e5e7eb;
+}
+
+blockquote {
+    font: italic 36px #1f2937; 
+}
+
+
+
+
+
+
