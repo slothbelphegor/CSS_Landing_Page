@@ -7,6 +7,19 @@ body {
 
 .header, .hero_section, .footer {
     background-color: #1f2937;
+    display: flex;
+    flex-direction: row;
+    padding: 20px 150px 150px 150px;
+}
+
+.header_links {
+    display: flex;
+    gap: 20px;
+}
+
+.header {
+    
+    justify-content: space-between;
 }
 
 .header_logo {
