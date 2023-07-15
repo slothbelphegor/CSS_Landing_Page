@@ -22,9 +22,20 @@ body {
     justify-content: space-between;
 }
 
+.hero_section {
+    gap: 30px;
+}
+
 .header_logo {
     font-size: 24px;
     color: #f9faf8;
+}
+
+.hero_content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 10px;
 }
 
 .hero_main_text {
@@ -36,7 +47,10 @@ body {
 .hero_sub_text, .link {
     font-size: 18px;
     color: #E5E7EB;
+}
 
+.hero_image {
+    flex: 1;
 }
 
 .btn, .ad_section {
