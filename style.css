@@ -53,6 +53,44 @@ body {
     flex: 1;
 }
 
+.info_section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    margin: 30px 100px 100px 100px;
+}
+
+.info_contents {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 90px;
+    flex-wrap: wrap;
+}
+
+.info_image {
+    width: 150px;
+    height: 150px;
+    
+    border-radius: 5px;
+}
+
+.info_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.info_subtext {
+    text-align: center;
+    inline-size: 120px;
+    overflow-wrap: normal;
+}
+
+
+
 .btn, .ad_section {
     background-color: #3882f6;
     color: #e5e7eb;
@@ -90,6 +128,7 @@ body {
 
 .quote_author {
     font-weight: bold;
+    
 }
 
 
