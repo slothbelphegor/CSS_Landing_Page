@@ -155,6 +155,13 @@ body {
     align-self: flex-end;
 }
 
+.footer {
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 30px;
+}
+
 
 
 
